@@ -20,7 +20,7 @@ nav.navbar {
 .logo {
   font-size: 30px;
   font-weight: bold;
-  color: #ff5349;
+  color: #2048DA;
 }
 
 .container {
@@ -42,7 +42,7 @@ ul.navlinks li {
 ul.navlinks li a {
   text-decoration: none;
   font-size: 17px;
-  color: #ff5349;
+  color: #2048DA;
   font-weight: 500;
   padding: 5px 10px;
   border-radius: 3px;
@@ -50,7 +50,7 @@ ul.navlinks li a {
 }
 
 ul.navlinks li a:hover {
-  background: #ff5349;
+  background: #2048DA;
   color: #fff;
 }
 
@@ -64,12 +64,12 @@ ul.navlinks li a:hover {
 
 .head-text::before {
   content: "_";
-  color: #ff5349;
+  color: #2048DA;
 }
 
 .head-text::after {
   content: "_";
-  color: #ff5349;
+  color: #2048DA;
 }
 
 .cards {
@@ -105,7 +105,7 @@ ul.navlinks li a:hover {
 
 .cards .content .name {
   font-size: 25px;
-  color: #ff5349;
+  color: #2048DA;
 }
 
 .cards .content .genre {
@@ -138,7 +138,7 @@ ul.navlinks li a:hover {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  background: #ff5349;
+  background: #2048DA;
   color: #fff;
   border-radius: 3px;
   border: none;
@@ -175,7 +175,7 @@ ul.navlinks li a:hover {
 
 .details-container .right .name {
   font-size: 30px;
-  color: #ff5349;
+  color: #2048DA;
 }
 
 .details-container .right .genre {
@@ -235,7 +235,7 @@ ul.navlinks li a:hover {
 
 .details-container .right .btn a {
   text-decoration: none;
-  background: #ff5349;
+  background: #2048DA;
   padding: 10px 30px;
   color: #fff;
   border-radius: 3px;
@@ -271,7 +271,7 @@ ul.navlinks li a:hover {
 .add-btn {
   font-size: 22px;
   color: #fff;
-  background: #ff5349;
+  background: #2048DA;
   padding: 10px 30px;
   cursor: pointer;
   margin: 0 auto;
@@ -291,7 +291,7 @@ ul.navlinks li a:hover {
 @media (max-width: 991px) {
 
   .bars .bars-btn {
-    color: #ff5349;
+    color: #2048DA;
     border: none;
     background: transparent;
     font-size: 30px;
@@ -328,14 +328,14 @@ ul.navlinks li a:hover {
     color: #fff;
     text-decoration: none;
     font-size: 17px;
-    color: #ff5349;
+    color: #2048DA;
     font-weight: 500;
     padding: 5px 10px;
     border-radius: 3px;
   }
 
   ul.navlinks-mobile li a.active {
-    background: #ff5349;
+    background: #2048DA;
     color: #fff;
   }
 
@@ -366,6 +366,10 @@ ul.navlinks li a:hover {
 }
 
 @media (max-width: 767px) {
+  .details-container {
+    padding: 0 30px;
+  }
+
   .container {
     padding: 100px 0;
   }
@@ -398,7 +402,7 @@ ul.navlinks li a:hover {
 
   .details-container .right .name {
     font-size: 25px;
-    color: #ff5349;
+    color: #2048DA;
   }
 
   .details-container .right table tr td:first-child {
@@ -417,7 +421,7 @@ ul.navlinks li a:hover {
 
   .details-container .right .btn a {
     text-decoration: none;
-    background: #ff5349;
+    background: #2048DA;
     padding: 10px 30px;
     color: #fff;
     border-radius: 3px;
